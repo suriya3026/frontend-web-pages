@@ -1,0 +1,69 @@
+body {
+    /*background:rgba(142, 202, 219, 0.651);*/
+    background: url('img.jpg')no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div {
+    padding: 20px 40px;
+    background:rgba(255, 255, 255, 0.326);
+    /*background:url('img.jpg')no-repeat center/cover;*/
+    border-radius: 50px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 20px 30px;
+}
+.one h2 {
+    /*padding: 3px;*/
+    max-width: fit-content;
+    margin-left: 90px;
+    /*background: rgb(197, 191, 191);*/
+    border-radius: 80px;
+}
+.name{
+    margin: 15px;
+    margin-left:60px
+}
+.email {
+     margin: 5px;
+     margin-left:76px
+}
+.password {
+     margin: 15px;
+     margin-left:60px;
+}
+.c-password {
+     margin: 3px;
+     margin-left:2px
+}
+input{
+     padding: 5px;
+     border-radius: 40px;
+     border: 10px;
+     background color: black;
+
+}
+.two{
+   margin-left: 180px;
+}
+.btn{
+    margin-top: 40px;
+     margin-left:110px;
+     padding: 10px 30px;
+     border-radius: 50px;
+     cursor: pointer;
+     font-size: medium;
+     background: rgb(244, 246, 244);
+     color: rgb(14, 14, 14);
+     border-color: white;  
+     border: 10px; 
+}
+.btn:active{
+    background:green;
+    color:rgb(238, 244, 238)
+}
+.sub {
+    
+}

@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background:black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:gray;
+    padding: 3px;
+}
+li {
+    display: inline-block;
+    padding-left: 60px;
+    text-transform: capitalize;
+}
+li :active {
+    color: green;
+}
+h1 {
+    color: orangered;
+    text-transform:uppercase;
+    margin-left: 80px;
+}
+.seven{
+    padding: 5px;
+    background: orangered;
+    cursor: pointer;
+    border: black;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.seven:active {
+    background-color: white;
+    
+}
+.eight {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+.nine {
+    margin-left: 220px;
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    width: 400px;
+}
+.ten {
+    margin-left: 220px;
+    width: 500px;
+    color: rgb(163, 158, 158);
+}
+.leven{
+    margin-left: 220px;
+    padding: 3px 10px;
+    text-transform:capitalize;
+    background:rgb(245, 245, 245);
+    border: black;
+    cursor: pointer;
+}
+.leven:active{
+    background-color: orangered;
+}
+.towel{
+    padding: 3px 20px;
+    text-transform: capitalize;
+    background: white;
+    border: rgb(253, 251, 251);
+    margin-bottom: 40px;
+}
+.towel:active{
+    background-color: orangered;
+}
+.sub {
+    background: gray;
+    padding: 18px;
+}
+.thirteen{
+    color: black;
+    margin-left: 200px;
+    display: inline-block;
+    width: 200px;
+    text-transform: capitalize;
+
+}.fourteen{
+    margin-left: 80px;
+    display: inline;
+    text-transform: capitalize;
+    font-size: 20px;
+    width: 30px;
+
+}
+.logo {
+    position: absolute;
+    margin-left: 820px;
+    border-radius: 100px;
+}
+    

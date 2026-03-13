@@ -1,0 +1,46 @@
+body{
+    justify-items: center;
+    background-color: black;
+    margin-top: 50px;
+}
+.calculator{
+    background-color: white;
+    width: 280px;
+    height: 460px;
+    padding: 40px 15px;
+    border-radius: 5px;
+    
+}
+.two{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 270px;
+    height: 80px;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: gray;
+    color:black
+}
+button{
+    background-color: rgba(23, 23, 153, 0.652);
+    width: 66px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+button:active{
+    background-color: rgb(42, 165, 110);
+}
+.one{
+   
+    font-size: 30px;
+    
+}
+.three{
+    background-color: rgb(254, 109, 5);
+}
